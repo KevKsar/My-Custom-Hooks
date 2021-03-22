@@ -1,6 +1,6 @@
 # useForm
 
-Ejemplo:
+Example:
 
 ```
     const initialForm = {
