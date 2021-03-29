@@ -30,10 +30,9 @@ Example:
 ## Insruction:
 1. Import "useForm".
 2. Create >>> 
-    const[formValues, handleInputChange] = useForm({
-        (NAME OF INPUT): '',   //<<<<<  initial values        
-        (NAME OF INPUT): '',   //<<<<<  initial values  
-        
+    const[formValues, handleInputChange] = useForm({   
+        (NAME OF INPUT): '',   //<<<<<  initial values         
+        (NAME OF INPUT): '',   //<<<<<  initial values     
     }).
 3. Use the desctructuring >>>
     const{NAME OF INPUT, NAME OF INPUT} = formValues
